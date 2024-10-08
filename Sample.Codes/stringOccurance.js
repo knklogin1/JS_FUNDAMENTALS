@@ -48,8 +48,8 @@ console.log(count)
 
 // }
 
-// // const string = prompt('enter the string: ')
-// // const letterToCheck = prompt('enter string to ckeck ')
+// const string = prompt('enter the string: ')
+// const letterToCheck = prompt('enter string to ckeck ')
 
 // const result = countString('SHANKAR','A')
 // console.log(result)

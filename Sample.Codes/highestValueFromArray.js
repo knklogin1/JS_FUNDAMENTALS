@@ -3,6 +3,7 @@ let len = arr.length
 
 let highest = 0
 let max = -Infinity
+let min = -Infinity
 
 
 
@@ -13,9 +14,11 @@ for(let i = 0; i < len; i++) {
 }
 
 for(let j = 0; j < len; j++) {
-    max = Math.max(max, arr[j])
+   max = Math.max(max, arr[j])
     min = Math.min(min, arr[j])
 }
+
+
 
 console.log(highest)
 console.log(max)

@@ -19,6 +19,6 @@ for(let i = 0; i < len; i++) {
 
 console.log([arr.length-1])
 
-// 2nd way 
+// 2nd way == sorting array to ascending order
 
-console.log('The sorted array is',arr.sort()[arr.length])
+console.log('The sorted array is',arr.sort((a,b)=>a-b))
