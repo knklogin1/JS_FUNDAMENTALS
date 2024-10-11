@@ -22,37 +22,37 @@
 
 //===========================================================================================
 
-const str = "SHANKAR"
-let count = 0
+// const str = "SHANKAR"
+// let count = 0
 
-for(let i=0;i<str.length;i++){
-    if(str[i]=='A') {
-        count++
-    }
-}
-console.log(count)
+// for(let i=0;i<str.length;i++){
+//     if(str[i]=='A') {
+//         count++
+//     }
+// }
+// console.log('The occurance for "A" is:: '+count)
 
 
 //============================================================================================
 
-// function countString(str, Letter) {
-//     let count=0
+function countString(str, Letter) {
+    let count=0
 
-//     for(let i=0;i<str.length;i++){
-//         if(str.charAt(i)==Letter) {
-//             count++
-//         }
+    for(let i=0;i<str.length;i++){
+        if(str.charAt(i)==Letter) {
+            count++
+        }
 
-//     }
-//     return count
+    }
+    return count
 
-// }
+}
 
 // const string = prompt('enter the string: ')
 // const letterToCheck = prompt('enter string to ckeck ')
 
-// const result = countString('SHANKAR','A')
-// console.log(result)
+const result = countString('SHANKAR','A')
+console.log(result)
 
 
 

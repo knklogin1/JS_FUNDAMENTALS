@@ -17,8 +17,9 @@ for(let i = 0; i < len; i++) {
    
 }
 
-console.log([arr.length-1])
+console.log('The Second highest value is:: '+[len-1])
 
 // 2nd way == sorting array to ascending order
 
-console.log('The sorted array is',arr.sort((a,b)=>a-b))
+arr.sort((a,b)=>a-b)
+console.log('The third highest value is:: '+[len-2])
