@@ -48,3 +48,14 @@ function execution(str,vowels) {
 
 
 }
+
+//====================================================================
+
+function execution1(str) {
+  //let x = str.toLowerCase()
+  return str.replace(/[^aAeEiIoOuU]/g,"").length
+
+}
+
+let result1 = execution1(str)
+console.log(result1)
