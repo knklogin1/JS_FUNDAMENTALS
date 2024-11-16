@@ -1,7 +1,7 @@
-const str = [1,2,3,4,5,6]
-// const str = "Hello, How are you?"
+//const str = [1,2,3,4,5,6]
+ const str = "Hello, How are you?"
 const reverse = reverseArray(str)
-console.log(reverse.split(''))
+console.log(reverse)
 
 function reverseArray(str) {
 

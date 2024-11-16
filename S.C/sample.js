@@ -31,3 +31,13 @@ console.log(a())
 
 //================================================================
 
+let array = [1,2,3,4,5,'Kedar']     // array can be defined in this way as well
+console.log(array)
+
+
+//===============================================================
+
+let p = 10
+let q = "20"
+let r = p+q
+console.log(r)

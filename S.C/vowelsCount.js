@@ -36,9 +36,10 @@ function execution(str,vowels) {
   let count = 0
 
   for(let c of str) {
-    console.log(c)
+    //console.log(c)
     for(let d of vowels) {
       if(c==d) {
+        console.log(d)
         count=count+1
       }
     }
@@ -51,11 +52,11 @@ function execution(str,vowels) {
 
 //====================================================================
 
-function execution1(str) {
-  //let x = str.toLowerCase()
-  return str.replace(/[^aAeEiIoOuU]/g,"").length
+// function execution1(str) {
+//   //let x = str.toLowerCase()
+//   return str.replace(/[^aAeEiIoOuU]/g,"").length
 
-}
+// }
 
-let result1 = execution1(str)
-console.log(result1)
+// let result1 = execution1(str)
+// console.log(result1)

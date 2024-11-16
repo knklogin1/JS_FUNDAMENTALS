@@ -8,3 +8,19 @@ let removeCharFromArray = arr.filter(val => {   // filter method is used to remo
 
 let result = removeCharFromArray.join("")
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

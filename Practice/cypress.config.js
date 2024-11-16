@@ -10,7 +10,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    baseUrl: 'https://www.amazon.in/',
+   baseUrl: 'https://www.amazon.in/',   //'https://www.flipkart.com',     
     specPattern: 'cypress/e2e/**/*.spec.{js,jsx,ts,tsx}'
   },
 });

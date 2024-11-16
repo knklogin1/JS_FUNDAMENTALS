@@ -22,7 +22,7 @@ console.log(data)
 console.log(data.reduce((x,y)=>x+y))   // arithmetic operations of array values
 
 let unique = new Set(data)
-console.log([...data])
+console.log([...data])      // this is spread operator
 
 //============================================================================
 

@@ -23,7 +23,7 @@
 
 // for(let i=0;i<3;i++){          // var has a global scope so while using settimeout the loop finished the execution 
 //     setTimeout(()=>console.log(i),1)
-// }
+//}
 
 
 //3 ===================================================================
@@ -72,6 +72,8 @@
 
 // console.log(a==b)   // checking the values are equal using ==
 // console.log(a===b)   // checks the strict comparision using ===
+// console.log(typeof b)
+// console.log(typeof a)
 
 //8 ==========================================================================
 
@@ -102,10 +104,66 @@
 
 // 11 ======================================================================
 
-let number = 0
-console.log(number)
-console.log(number++)   // prints the number value first and then make increment
-console.log(++number)   // increment the value first and then print. Now initial number valu is 1
-console.log(number)
+// let number = 0
+// console.log(number)
+// console.log(number++)   // prints the number value first and then make increment
+// console.log(++number)   // increment the value first and then print. Now initial number valu is 1
+// console.log(number)
 
 //12 =======================================================================
+
+// function getAge(...args) {     // this is spread operator
+//     console.log(typeof args)    // In JS there is nothing like array its a object only.
+// }    //The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+// getAge(21)
+
+
+//13 ==========================================================================
+
+// function getAge() {    
+//    // 'use strict'        // when this word is used then there is mandatory that variable should be declared with its datatype like 'let'
+//      age = 21
+//     console.log(age)    
+// }
+
+// getAge()
+
+//14 ===========================================================================
+
+// const sum = eval('10*10+5')     // eval - function is used to convert string value into int value
+// console.log(sum)
+
+//15 ===========================================================================
+
+// const object = {1:"a",2:"b",3:"c"}
+
+// console.log(object.hasOwnProperty("1"))   // returns true or false
+// console.log(object.hasOwnProperty(1))       // returns true or false
+
+//16 ==========================================================================
+
+// const obj = {a:"one", b:"two",a:"repeat"}       // O/p is a:repeat,b:two as 2nd value overlapped to first one.
+
+// console.log(obj)
+
+//17 =========================================================================
+
+// for (let i=1;i<5;i++) {
+//     if(i===3) 
+//         continue        // this will skip the value when i=3
+//     console.log(i)
+// }
+
+//18 =========================================================================
+
+// const foo = () => console.log('First')
+// const bar = () => setTimeout(() => console.log('Second'))  // this function will execute after all functions
+// const baz = () => console.log('Thrid')
+
+// bar()
+// foo()
+// baz()
+
+//19 ========================================================================
+

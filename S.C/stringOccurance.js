@@ -54,6 +54,33 @@ function countString(str, Letter) {
 const result = countString('SHANKAR','A')
 console.log(result)
 
+//===============================================================
+
+let str = "Synechron"
+let len  = str.length
+
+let result1 = Execution(str,len)
+console.log('The occurance for letter "n" is:  '+result1)
+
+function Execution(str,len) {
+	
+	let count = 0
+	let input = 'n'
+	for(let i=0;i<len;i++) {
+
+	    if(str[i]==input) {
+
+	     count = count+1
+
+        }
+    }
+
+return count
+
+
+
+}
+
 
 
 
